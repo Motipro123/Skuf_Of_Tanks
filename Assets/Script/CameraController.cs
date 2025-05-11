@@ -25,15 +25,5 @@ public class CameraRotation : GunController
     void Update()
     {
         rotationGun();
-        //float mouseX = Input.GetAxis("Mouse X");
-        //float mouseY = Input.GetAxis("Mouse Y");
-
-        //_rotationX += mouseX * rotationSpeed;
-        //_rotationY -= mouseY * rotationSpeed;
-
-        //_rotationY = ClampAngle(_rotationY, minVerticalAngle, maxVerticalAngle);
-        //Debug.Log(_rotationY);
-        //// Применяем вращение
-        //transform.rotation = Quaternion.Euler(_rotationY, _rotationX, 0);
     }
 }

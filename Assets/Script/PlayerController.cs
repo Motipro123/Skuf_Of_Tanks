@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
         float v = Input.GetAxis("Vertical") * Time.deltaTime * _speed;
 
         _rb.AddTorque(rotationAxis * h* rotationSpeed * rotationTorque);
-        transform.Translate(h, 0, v);
+        transform.Translate(0, 0, v);
         //_rb.velocity = new Vector3(h, _rb.velocity.y, v);
     }
 
