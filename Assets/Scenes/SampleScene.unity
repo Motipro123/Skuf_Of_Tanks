@@ -276,6 +276,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -511,10 +519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a252658b5a54fe44a911410e5783dbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rb: {fileID: 0}
-  _speedRotationGun: 2
-  _maxVerticalAngle: 80
-  _minVerticalAngle: -80
   rotationSpeed: 1
   maxVerticalAngle: 80
   minVerticalAngle: -80
@@ -823,10 +827,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f9c2c8a28d72e146ba407a49192d438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _rb: {fileID: 0}
-  _speedRotationGun: 2
-  _maxVerticalAngle: 10
-  _minVerticalAngle: -20
+  _cameraTransform: {fileID: 963194228}
+  _rotationSpeed: 27
+  _maxRotationSpeed: 360
+  _maxVerticalAngle: -29
+  _minVerticalAngle: 25.2
 --- !u!114 &1452977211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -839,7 +844,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7560b355b0123274191c98a8681466ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _bulletSpeed: 10
+  _bulletSpeed: 100
   _bulletDamage: 100
   _bulletPrefab: {fileID: 3336432068581752178, guid: e070ea63c3b968949b0f6526039bf9c5, type: 3}
   _bulletRb: {fileID: 6314773419255936043, guid: e070ea63c3b968949b0f6526039bf9c5, type: 3}
@@ -1099,6 +1104,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plane (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1260,6 +1273,14 @@ PrefabInstance:
     - target: {fileID: 7004801616178286350, guid: fba7520f9326189419a4e981086e7392, type: 3}
       propertyPath: m_Name
       value: Plane (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7175855895237957047, guid: fba7520f9326189419a4e981086e7392, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
